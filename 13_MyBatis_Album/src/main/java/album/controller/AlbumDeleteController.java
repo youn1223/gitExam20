@@ -17,8 +17,7 @@ public class AlbumDeleteController {
 	AlbumDao albumDao;
 	//albumList.jsp에서 삭제
 	// youn1223 추가
-	// kim 수정
-	// kim 추가
+	// youn1223 추가
 	@RequestMapping(command)
 	public String doAction(@RequestParam(value="num",required = true ) int num) {
 		
