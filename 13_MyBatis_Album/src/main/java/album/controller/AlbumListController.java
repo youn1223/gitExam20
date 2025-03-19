@@ -58,6 +58,9 @@ public class AlbumListController {
 		// kim이 추가함
 		// master가 수정
 		// master가 수정
+		// kim도 수정함
+		// kim이 추가함
+		// kim이 추가함
 	}
 }
 
