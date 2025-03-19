@@ -54,6 +54,10 @@ public class AlbumListController {
 		mav.setViewName(getPage);
 		return mav;
 		// /WEB-INF/album/albumList.jsp
+		
+		// kim이 추가함
+		// kim이 추가함
+		// kim이 추가함
 	}
 }
 
