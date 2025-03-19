@@ -20,6 +20,8 @@ public class AlbumDeleteController {
 	// youn1223 추가
 	//youn1223 수정
 	// youn1223 수정
+	// kim 한번 더 수정
+	// kim 한번 더 수정
 	@RequestMapping(command)
 	public String doAction(@RequestParam(value="num",required = true ) int num) {
 
@@ -28,4 +30,4 @@ public class AlbumDeleteController {
 		int cnt = albumDao.deleteAlbum(num);
 		return gotoPage;
 	}
-}
+} 
