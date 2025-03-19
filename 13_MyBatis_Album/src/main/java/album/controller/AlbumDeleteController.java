@@ -21,7 +21,7 @@ public class AlbumDeleteController {
 	@RequestMapping(command)
 	public String doAction(@RequestParam(value="num",required = true ) int num) {
 		
-		
+		    
 		// 한줄 삭제
 		int cnt = albumDao.deleteAlbum(num);
 		return gotoPage;
