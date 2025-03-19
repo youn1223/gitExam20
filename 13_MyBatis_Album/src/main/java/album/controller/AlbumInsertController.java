@@ -28,9 +28,12 @@ public class AlbumInsertController {
 	public String doActionGet() {
 		return getPage;
 		// /WEB-INF/album/albumInsertForm.jsp
-	}
+		//kim 추가
+		//kim 추가
+		//kim 추가
+	}  
 	
-	// albumInsertForm.jsp
+	// 한줄 삭제
 	@RequestMapping(value=command, method = RequestMethod.POST)
 	public ModelAndView doActionPost(@ModelAttribute("album") @Valid AlbumBean album, BindingResult result) {
 		
