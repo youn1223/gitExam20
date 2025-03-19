@@ -55,7 +55,7 @@ public class AlbumListController {
 		return mav;
 		// /WEB-INF/album/albumList.jsp
 		
-		// kim이 추가함
+		// kim도 수정함
 		// kim이 추가함
 		// kim이 추가함
 	}
