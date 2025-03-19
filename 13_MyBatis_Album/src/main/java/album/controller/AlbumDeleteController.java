@@ -12,19 +12,20 @@ public class AlbumDeleteController {
 
 	private final String command = "delete.ab";
 	private final String gotoPage = "redirect:/list.ab";
-	
+
 	@Autowired
 	AlbumDao albumDao;
 	//albumList.jsp에서 삭제
 	// youn1223 추가
 	// youn1223 추가
+	//youn1223 수정
+	// youn1223 수정
 	@RequestMapping(command)
 	public String doAction(@RequestParam(value="num",required = true ) int num) {
-		
-		    
+
+
 		// 한줄 삭제
 		int cnt = albumDao.deleteAlbum(num);
 		return gotoPage;
 	}
 }
-      
