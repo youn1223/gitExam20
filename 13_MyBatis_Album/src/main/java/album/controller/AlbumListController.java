@@ -56,8 +56,8 @@ public class AlbumListController {
 		// /WEB-INF/album/albumList.jsp
 		
 		// kim이 추가함
-		// kim이 추가함
-		// kim이 추가함
+		// master가 수정
+		// master가 수정
 	}
 }
 
